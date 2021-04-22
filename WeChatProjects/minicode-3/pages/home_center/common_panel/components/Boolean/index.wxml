@@ -1,0 +1,8 @@
+<!--pages/home_center/common_panel/components/Boolean/index.wxml-->
+<view class="boolean-container">
+  <view class="boolean-name">{{dpName}}</view>
+  <van-switch checked="{{isChecked}}" bind:change="onChange" />
+</view>
+<view class="booleann-container">
+  <view class="boolean-name">{{"电量：000000.00kw-h"}}</view>
+</view>
